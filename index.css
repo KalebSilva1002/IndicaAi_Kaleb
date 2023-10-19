@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*Header*/
+header{
+    background-color: #415aca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-header img{
+    height: 100px;
+    margin-right: 100px;
+}
+
+
+#options{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;   
+}
+
+#options ul{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+}
+
+#options a{
+    text-decoration: none;
+}
+
+#options li{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+#options li:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.icons-header img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+}
+
+.icons-header img:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.icons-header{
+    width:300px;
+    display:flex; 
+    justify-content: center;
+    margin-right: 600px;
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/*Corpo*/
+
+/*index.html*/
+.slide{
+    width:1900px;
+    height: 710px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+   
+}
+
+.carousel-inner{
+    width:1900px;
+    height: 700px;
+}
+
+.carousel-inner img{
+    width:1900px;
+    height: 700px;
+}
+.carousel-item h5, .carousel-item p{
+    font-size: 50px;
+    font-weight: 600;
+}
+.text{
+    width: 1200px;
+    margin: 100px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 50px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.text:hover{
+    cursor:help ;
+    box-shadow: rgba(0, 0, 0, 0.73) 0px 10px 20px, rgba(0, 0, 0, 0.829) 0px 6px 6px;
+}
+
+.text h1{
+    font-size: 50px;
+    color: #415aca;
+}
+
+.text p{
+    font-size: 20px;
+}
+
+#titulo{
+    margin-left: 50px;
+}
+
+#titulo h1{
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*sobre.html*/
+
+#accordionExample{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+   margin: 50px;
+}
+
+#accordion-h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+.pergunta-accordion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.pergunta-accordion label{
+    margin-right: 20px;
+}
+.pergunta-accordion button{
+    margin-left: 50px;
+    width:100px ;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #415aca;
+    color: aliceblue;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.pergunta-accordion button:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    color: #415aca;
+    background-color: #fff;
+    border: 1px solid black;
+}
+#pergunta{
+    width: 900px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+/*contato.html*/
+#ul{
+    
+    height: 600px;
+    margin: 50px;
+    transition: all 0.3s ease;
+
+}
+
+#ul:hover{
+    cursor:help ;
+    box-shadow: rgba(0, 0, 0, 0.345) 0px 10px 20px, rgba(0, 0, 0, 0.435) 0px 6px 6px;
+}
+#ul li{
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Footer*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+footer{
+    background-color: #415aca;
+    padding: 50px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #cecdcd;
+    padding-left: 10px;
+}
+.footer-col .medias-socias{
+    margin-top: 30px;
+}
+.footer-col .medias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+}
+.footer-col .medias-socias a i{
+    font-size: 20px;
+}
+
+.footer-col .medias-socias a:hover{
+    color: #415aca;
+    background-color: white;
+}
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #415aca;
+}
+.footer-col .form-sub input::placeholder{
+    color: white;
+}
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px; 
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #415aca;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;        
+}
+
+.medias-socias1{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.medias-socias1 a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #415aca;
+    border: 1px solid rgb(0, 0, 0);
+    transition: all 0.5s ease;
+}
+.medias-socias1 a i{
+    font-size: 40px;
+}
+
+.medias-socias1 a:hover{
+    color: #ffffff;
+    background-color: #415aca;
+}
+
+
+/* Responsivo */
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px) {
+    .footer-col{
+        width: 100%;
+    }
+}
